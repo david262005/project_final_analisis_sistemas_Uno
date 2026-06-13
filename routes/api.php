@@ -11,6 +11,8 @@ Route::middleware('tenant')->group(function (): void {
 Route::middleware(['tenant', 'jwt.auth'])->group(function (): void {
     Route::get('/auth/me', [AuthController::class, 'me']);
     Route::post('/auth/logout', [AuthController::class, 'logout']);
+    // Reports
+    Route::get('/reports', [\App\Http\Controllers\Api\V1\ReportController::class, 'index']);
 });
 
 Route::middleware(['tenant', 'jwt.refresh'])->group(function (): void {
