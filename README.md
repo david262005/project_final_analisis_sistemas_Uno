@@ -1,5 +1,7 @@
 # Proyecto base — Evaluación Final Análisis de Sistemas I
 
+Repositorio forkeado: https://github.com/david262005/project_final_analisis_sistemas_Uno
+
 Proyecto **Laravel 12 + Vue 3 (Vite)** con **JWT**, **Spatie Laravel Permission** y **Stancl Tenancy** (tenant identificado por cabecera `X-Tenant-ID`). Esta base se entrega para que el estudiante analice la estructura existente y desarrolle el módulo asignado por el docente.
 
 ---
